@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     transition: all .5s;
-    /* animation: rgbBackground-color 15s infinite; */
+    animation: rgbBackground-color 15s infinite;
 }
 
 main.container {
