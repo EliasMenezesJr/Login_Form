@@ -16,6 +16,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .5s;
+    /* animation: rgbBackground-color 15s infinite; */
 }
 
 main.container {
@@ -34,6 +36,7 @@ main h2 {
     margin-bottom: 2rem;
     position: relative;
 
+    
     animation: rgbColor 7s infinite;
 }
 
@@ -166,12 +169,4 @@ form input[type="submit"]:hover{
 .footer .social-field a {
     color: hsl(0, 0%, 100%);
     text-decoration: none;
-}
-
-.footer .social-field.twitter {
-    background: linear-gradient(to right, hsl(209, 86%, 64%), hsl(209, 55%, 53%));
-}
-
-.footer .social-field.facebook {
-    background: linear-gradient(to right, hsl(219, 59%, 29%), hsl(218, 57%, 38%));
 }

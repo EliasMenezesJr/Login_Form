@@ -25,3 +25,12 @@
         background-color:hsl(263, 60%, 26%);
     }
 }
+
+@keyframes rgbButtons {
+    0%, 100% {
+        background-color: orange;
+    }
+    50% {
+        background-color: yellow;
+    }
+}
